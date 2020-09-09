@@ -1,4 +1,4 @@
-# ADM-MOD-FlysAndroid
+# ADM-ULTIMATE_MOD-FlysAndroidPeru
 
 # Instalacion - Script Official
 
@@ -23,7 +23,7 @@ t.me/e8th4ever
 Modificaciones Al Codigo: @IlluminatiTeam
 t.me/admmanagerfree
 
-Remodidicaciones: @FlysAndroid
+Remodificaciones: @FlysAndroid
 https://www.youtube.com/channel/UCuylvZo7j3BIN16e8yHkOuA
 
 ```
