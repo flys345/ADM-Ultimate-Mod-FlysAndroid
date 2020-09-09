@@ -109,7 +109,7 @@ msg -verm "$(fun_trans "Perfeito Iniciando Procedimento"): "
 [[ -e $HOME/instalar.sh ]] && rm $HOME/instalar.sh
 [[ -e $HOME/lista-arq ]] && rm $HOME/lista-arq
 [[ -e $HOME/versao ]] && rm $HOME/versao
-wget -O $HOME/instalar.sh https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/instalar.sh &>/dev/null
+wget -O $HOME/instalar.sh https://raw.githubusercontent.com/flys345/ADM-Ultimate-Mod-FlysAndroid/master/Install/trans &>/dev/null
 chmod +x $HOME/instalar.s*
 local LINGUAGE=$(cat ${SCPidioma})
 [[ -d ${SCPdir} ]] && rm -rf ${SCPdir}
