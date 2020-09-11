@@ -5,10 +5,7 @@
 ```
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/flys345/ADM-Ultimate-Mod-FlysAndroid/master/instalar.sh; chmod 777 instalar.sh* && ./instalar.sh*
 ```
-
-El obejetivo de Lograr tus metas esta en intentar de todo y no darte por Vencido 😉
-La Paciencia es una virtud.
-Nunca es tarde para aprender.
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/flys345/ADM-Ultimate-Mod-FlysAndroid/master/instalar.sh; chmod 777 instalar.sh* && ./instalar.sh*
 
 # Creditos:
 
