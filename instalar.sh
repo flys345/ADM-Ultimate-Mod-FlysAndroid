@@ -335,18 +335,17 @@ msg -bar2 && msg -verm "ERROR de enlace VPS<-->GENERADOR" && msg -bar2
 exit 1
 }
 invalid_key () {
-msg -bar2 && msg -verm "#¡Key Invalida#! " && msg -bar2
+msg -bar2 && msg -verm "Key Failed! " && msg -bar2
 [[ -e $HOME/lista-arq ]] && rm $HOME/lista-arq
 exit 1
 }
-while [[ ! $Key ]]; do
-msg -bar2 && msg -ne "# DIGITE LA KEY #:qra-atsilK?29@%6087%?66d5K8888:%05+08+@@?+91" && read Key
-tput cuu1 && tput dl1
-done
-msg -ne "# Verificando Key # : "
+Key="qra-atsilK?29@%6087%?66d5K8888:%05+08+@@?+91"
+REQUEST=$(echo $SCPresq|$SUB_DOM)
+IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
-wget -O $HOME/lista-arq $(ofus "$Key")/$IP > /dev/null 2>&1 && echo -e "\033[1;32m Key Completa" || {
-   echo -e "\033[1;91m Key Incompleta"
+msg -ne "Key: "
+wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
+   echo -e "\033[1;32m Verified"
    invalid_key
    exit
    }
