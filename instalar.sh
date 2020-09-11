@@ -93,7 +93,7 @@ byinst="true"
 }
 install_fim () {
 msg -ama "$(source trans -b pt:${id} "Instalacao Completa, Utilize os Comandos"|sed -e 's/[^a-z -]//ig')" && msg bar2
-echo -e " menu / adm"
+echo -e " h / adm"
 msg -bar2
 }
 ofus () {
@@ -141,7 +141,7 @@ fun_ip
 wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/trans &> /dev/null
 clear
 msg -bar2
-msg -ama "[ NEW - ULTIMATE - SCRIPT ]"
+msg -ama "[ FLYS - ANDROID - PERU ]"
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
