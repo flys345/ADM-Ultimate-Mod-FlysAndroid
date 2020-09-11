@@ -1,6 +1,5 @@
 #!/bin/bash
 #19/12/2019
-clear
 #ACTULIZADOR
 rm -rf instalscript.sh &>/dev/null
 [[ ! -e /etc/versin_script ]] && echo 1 > /etc/versin_script
